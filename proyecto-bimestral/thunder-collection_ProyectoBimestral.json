@@ -1,0 +1,370 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoBimestral",
+    "dateExported": "2024-02-23T17:47:43.261Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "d882b802-618b-401f-99f0-7636d1d87913",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-23T13:00:19.554Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-02-23T13:00:26.138Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-23T13:00:34.394Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "89ad9b60-75f7-4476-a914-45b1650c5794",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d882b802-618b-401f-99f0-7636d1d87913",
+            "name": "UserRegister",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T13:01:09.963Z",
+            "modified": "2024-02-23T14:30:14.458Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Fabricio"
+                    },
+                    {
+                        "name": "username",
+                        "value": "llopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "llopez-2022167@kinal.edu"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "34845124"
+                    },
+                    {
+                        "name": "role",
+                        "value": "CLIENT"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "729b4a60-fe04-4f77-b1af-2467eaafcb68",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d882b802-618b-401f-99f0-7636d1d87913",
+            "name": "UserLogin",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-23T13:01:19.938Z",
+            "modified": "2024-02-23T14:30:19.950Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "llopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e9a4c768-5a72-4931-b196-f4bf20fdf78e",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d882b802-618b-401f-99f0-7636d1d87913",
+            "name": "UserUpdate",
+            "url": "/update/65d8abf670c977f5c29169d9",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T13:01:46.609Z",
+            "modified": "2024-02-23T14:31:18.621Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Lisandro Lopez"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "881e3d75-a952-44fa-842f-bff4af60c30e",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d882b802-618b-401f-99f0-7636d1d87913",
+            "name": "UserDelete",
+            "url": "/delete/65d8abf670c977f5c29169d9",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T13:01:53.139Z",
+            "modified": "2024-02-23T14:31:26.812Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1d87c57e-0c20-4eb3-a84f-f7747f6b4aa3",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "ProductSave",
+            "url": "/product/save",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-23T13:10:58.659Z",
+            "modified": "2024-02-23T14:48:11.952Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Coca-Cola"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Bebida gaseosa de la marca Coca-Cola"
+                    },
+                    {
+                        "name": "price",
+                        "value": "5"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "10"
+                    },
+                    {
+                        "name": "bestSeller",
+                        "value": "true"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d8add970c977f5c29169ee"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bdf3ffaf-65d8-401a-a4d6-8e279913da55",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "ProductGet",
+            "url": "/product/get",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-23T13:11:24.174Z",
+            "modified": "2024-02-23T14:50:54.391Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c8bb2c88-4835-4d7c-96ce-01c5e63b9814",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "ProductSearch",
+            "url": "/product/search",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-23T13:11:37.222Z",
+            "modified": "2024-02-23T14:51:27.194Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Coca-Cola"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3c1d4158-e63c-4d50-9708-cbeff054e24e",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "ProductUpdate",
+            "url": "/product/update/65d8b0bc6f60dc7819442e03",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-02-23T13:11:49.070Z",
+            "modified": "2024-02-23T14:52:34.942Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "bestSeller",
+                        "value": "false"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "62b644bf-eda9-45e5-b987-1345b2acc4a4",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "CategorySave",
+            "url": "/category/save",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-02-23T14:17:51.316Z",
+            "modified": "2024-02-23T14:38:17.709Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "default"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Categoria default"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9d38255f-6285-41cf-a043-56874da478d9",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "CategoryGet",
+            "url": "/category/get",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-23T14:18:11.748Z",
+            "modified": "2024-02-23T14:31:51.475Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6a179db7-cf66-4037-a5d0-f1211c99303f",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "CategorySearch",
+            "url": "/category/search",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-02-23T14:18:21.421Z",
+            "modified": "2024-02-23T14:34:41.869Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Bebidas"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f434d467-b7ff-435e-af04-7312425a2b8b",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "CategoryUpdate",
+            "url": "/category/update/65d8ab7e70c977f5c29169d6",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2024-02-23T14:18:39.085Z",
+            "modified": "2024-02-23T14:36:22.987Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "Categoria para todo tipo de bebidas"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "63a63f95-985f-459b-a1e1-ce63a04eae47",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "4b8d36ce-b020-4360-873d-cf55c5d2c73e",
+            "name": "CategoryDelete",
+            "url": "/category/delete/65d8ab7e70c977f5c29169d6",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2024-02-23T14:18:47.956Z",
+            "modified": "2024-02-23T14:37:29.106Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "528ea6c4-a4ee-458c-9e6b-2a3f071ba872",
+            "colId": "3d5a0fbc-c097-480d-9785-177af551ddf9",
+            "containerId": "d11c4c75-9bdb-4f24-8ae7-ecd97d0c20e4",
+            "name": "ProductDelete",
+            "url": "/product/delete/65d8b04b85a04c40b85bfff4",
+            "method": "DELETE",
+            "sortNum": 160000,
+            "created": "2024-02-23T14:47:40.305Z",
+            "modified": "2024-02-23T14:50:33.714Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3000"
+        }
+    }
+}
